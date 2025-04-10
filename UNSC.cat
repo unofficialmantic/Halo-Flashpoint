@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5d4b-477e-4c18-da0c" name="UNSC" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b8b3-48e2-39f0-8ef2" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="0800-155a-0e23-9c3a" name="Spartan Brawler" hidden="false"/>
+    <categoryEntry id="ff95-3592-d6b5-fab2" name="Spartan MKVII" hidden="false"/>
+    <categoryEntry id="e644-04ea-9594-f331" name="Spartan Deadeye" hidden="false"/>
+    <categoryEntry id="7f60-7559-6e77-3cce" name="Spartan Zvezda" hidden="false"/>
+    <categoryEntry id="da56-8c21-0413-f45a" name="Spartan CQB" hidden="false"/>
+    <categoryEntry id="2769-8f75-0a0c-1e3e" name="Spartan Gungnir" hidden="false"/>
+    <categoryEntry id="11d5-3a2f-7e72-493a" name="Spartan HAZOP" hidden="false"/>
+    <categoryEntry id="7b84-1754-5d8e-d128" name="Spartan JFO" hidden="false"/>
+    <categoryEntry id="32d3-c535-cc1b-fac4" name="UNSC Special Orders" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fc1-1ac8-d710-789e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cae-b747-8885-85e4" type="min"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="e60d-9070-0306-4036" name="Spartans" hidden="false"/>
+    <categoryEntry id="8471-8464-e2c0-01cf" name="Legends" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="55be-5599-72e4-5e89" name="UNSC Fireteam" hidden="false">
+      <categoryLinks>
+        <categoryLink id="5b59-295d-a2fc-674b" name="UNSC Special Orders" hidden="false" targetId="32d3-c535-cc1b-fac4" primary="false"/>
+        <categoryLink id="48b4-c8cc-613a-12b6" name="Legends" hidden="false" targetId="8471-8464-e2c0-01cf" primary="false"/>
+        <categoryLink id="df08-dce7-a7ab-403e" name="Spartan" hidden="false" targetId="e60d-9070-0306-4036" primary="false"/>
+        <categoryLink id="7bc6-abe2-0981-f401" name="Command Upgrades" hidden="false" targetId="b778-9380-b6fa-b399" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="4316-5ec9-eed2-459d" name="Spartan Brawler (CQS48 Bulldog)" hidden="false" collective="false" import="true" targetId="0767-4942-5748-eed9" type="selectionEntry"/>
+    <entryLink id="6c21-fe06-ef87-b42e" name="Spartan Brawler (Needler)" hidden="false" collective="false" import="true" targetId="c7cf-5d7a-9b28-2d8f" type="selectionEntry"/>
+    <entryLink id="1c5d-b78c-37a1-e10f" name="Spartan CQB (Energy Sword)" hidden="false" collective="false" import="true" targetId="3843-b3e1-7832-be0f" type="selectionEntry"/>
+    <entryLink id="a412-99fb-aa3c-9a38" name="Spartan CQB (Gravity Hammer)" hidden="false" collective="false" import="true" targetId="b4b1-4b49-eb2a-ae2f" type="selectionEntry"/>
+    <entryLink id="3d43-e425-28f0-fa0f" name="Spartan Deadeye (M392 DMR)" hidden="false" collective="false" import="true" targetId="954c-6355-5a66-c1ba" type="selectionEntry"/>
+    <entryLink id="8775-868d-1cd2-1396" name="Spartan Deadeye (Stalker Rifle)" hidden="false" collective="false" import="true" targetId="53b6-91ce-9e45-345b" type="selectionEntry"/>
+    <entryLink id="2330-a697-9995-61a6" name="Spartan Gungnir (M319 Grenade Launcher)" hidden="false" collective="false" import="true" targetId="fb17-5a33-ef6e-181f" type="selectionEntry"/>
+    <entryLink id="efb4-1e0f-a2db-de0c" name="Spartan Gungnir (Plasma Launcher)" hidden="false" collective="false" import="true" targetId="ac1c-31d4-d5dd-9ea0" type="selectionEntry"/>
+    <entryLink id="1f22-90f3-338a-e507" name="Spartan HAZOP (M45 Shotgun)" hidden="false" collective="false" import="true" targetId="66c3-29b8-2b0d-84f4" type="selectionEntry"/>
+    <entryLink id="c1cb-7ccd-8db5-015d" name="Spartan HAZOP (Spike Rifle)" hidden="false" collective="false" import="true" targetId="2ff6-a6c7-6733-56fb" type="selectionEntry"/>
+    <entryLink id="2185-b156-71b3-ed4c" name="Spartan JFO (Concussion Rifle)" hidden="false" collective="false" import="true" targetId="394e-c863-96c6-b6eb" type="selectionEntry"/>
+    <entryLink id="3acb-bbf5-7409-9001" name="Spartan JFO (H-165 Target Locator)" hidden="false" collective="false" import="true" targetId="3d45-84e3-805e-f4a9" type="selectionEntry"/>
+    <entryLink id="18d9-25ad-1f2f-832f" name="Spartan MKVII (MA40 Assault Rifle)" hidden="false" collective="false" import="true" targetId="4d4e-0fc7-b06f-a2be" type="selectionEntry"/>
+    <entryLink id="395e-ea4b-51c1-c85e" name="Spartan MKVII (Pulse Carbine)" hidden="false" collective="false" import="true" targetId="7e6c-3901-1a9f-47b2" type="selectionEntry"/>
+    <entryLink id="77ea-a39e-7537-0176" name="Spartan Zvezda (Cindershot)" hidden="false" collective="false" import="true" targetId="70d2-a332-146c-f7d6" type="selectionEntry"/>
+    <entryLink id="12be-7ac0-9c3a-2a46" name="Spartan Zvezda (VK78 Commando)" hidden="false" collective="false" import="true" targetId="2c97-4aac-8628-405d" type="selectionEntry"/>
+    <entryLink id="553d-2866-ae9d-0b67" name="Master Chief" hidden="false" collective="false" import="true" targetId="ca62-0b16-7581-cb73" type="selectionEntry"/>
+    <entryLink id="9529-f0ec-cf9e-033e" name="Return to Sender (Any Spartan)" hidden="false" collective="false" import="true" targetId="b3de-61f0-37df-233c" type="selectionEntry"/>
+    <entryLink id="55c1-abdc-0f02-24d3" name="Snap Shot (Any Spartan)" hidden="false" collective="false" import="true" targetId="b034-5ff5-cf2b-79d2" type="selectionEntry"/>
+    <entryLink id="1074-d844-a78d-2e16" name="One Man Army (Master Chief only)" hidden="false" collective="false" import="true" targetId="ab6b-c905-b637-8f3a" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="0767-4942-5748-eed9" name="Spartan Brawler (CQS48 Bulldog)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dad1-cdb0-648e-5ede" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="2bd6-485b-95bc-f065" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="5b08-ab1a-b475-0628" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="544b-3063-df32-2634" name="Spartan Brawler " hidden="false" targetId="9c6a-0bce-1add-5be5" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b07e-442f-1a5c-8ad0" name="Spartan Brawler (CQS48 Brawler)" hidden="false" targetId="0800-155a-0e23-9c3a" primary="false"/>
+        <categoryLink id="1fff-5898-d286-d3ce" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ec02-e354-b474-0140" name="CQS48 Bulldog (Default)" hidden="false" collective="false" import="true" targetId="97f3-bbcc-5a72-f59b" type="selectionEntry"/>
+        <entryLink id="97b6-8a57-2fb8-32c0" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="0c5d-602a-5915-09df" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="7c6a-8567-81a5-8f10" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="473d-a42c-2a20-6a50" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="39.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bbfe-7c10-e779-1f63" name="M11 Combat Knife" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b669-8854-6516-08ff" name="M11 Combat Knife" hidden="false" typeId="ac2c-807f-0eda-b898" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9121-f946-9d04-312c">CC</characteristic>
+            <characteristic name="AP" typeId="13ba-5438-7c73-e0df">2</characteristic>
+            <characteristic name="Keywords" typeId="33b8-c264-b71e-6619">ESD (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="36e5-f254-2a60-d825" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="a4fa-cfed-8a02-c1d1" name="Energy Shield Depleter (ESD) (n)" hidden="false" targetId="6e85-9060-b52d-8a58" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fe62-95db-9c64-0dd3" name="Spartan Fists" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="fda7-f04a-1dbf-224c" name="Spartan Fists" hidden="false" typeId="ac2c-807f-0eda-b898" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9121-f946-9d04-312c">CC</characteristic>
+            <characteristic name="AP" typeId="13ba-5438-7c73-e0df">-</characteristic>
+            <characteristic name="Keywords" typeId="33b8-c264-b71e-6619">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c7cf-5d7a-9b28-2d8f" name="Spartan Brawler (Needler)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="70b6-5aa6-2ac1-f5dd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e0d7-48bb-1647-42a5" name="Spartan Brawler" hidden="false" typeId="908f-e54b-8c7a-2ca1" typeName="Model Profile">
+          <characteristics>
+            <characteristic name="SP" typeId="1613-979c-19c1-5711">2-3</characteristic>
+            <characteristic name="RA" typeId="93cb-9d76-7b0a-d793">5+</characteristic>
+            <characteristic name="FI" typeId="b44b-1a2b-12eb-c65b">3+</characteristic>
+            <characteristic name="SV" typeId="f7d8-51bd-942d-293b">5+</characteristic>
+            <characteristic name="AR" typeId="5414-fbe8-7d35-a00d">2</characteristic>
+            <characteristic name="HP" typeId="df26-0602-4a66-3394">4</characteristic>
+            <characteristic name="Keywords" typeId="e609-9769-225d-d205">Energy Shield (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="d2f0-abdc-11eb-f3d1" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="fe9f-9028-0a59-6b62" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="0dae-453f-21a0-ec71" name="Spartan Brawler" hidden="false" targetId="0800-155a-0e23-9c3a" primary="false"/>
+        <categoryLink id="6cec-5d79-fb32-156f" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6400-d6e6-3b6c-2ccd" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="eeaa-e621-f7ed-58be" name="Pick-up" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1baf-e55f-b0b2-f002" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3c04-4b0b-6939-bad7" name="Needler (Default)" hidden="false" collective="false" import="true" targetId="8d47-f794-4b09-5a4e" type="selectionEntry"/>
+        <entryLink id="79c0-5b2b-0bb1-d95d" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+        <entryLink id="d31a-3216-bd2d-8170" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="39.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d4e-0fc7-b06f-a2be" name="Spartan MKVII (MA40 Assault Rifle)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1385-6a4d-bbfb-2f4c" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="2753-e5e9-05d7-250f" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="0e4a-4ea2-9fed-c38c" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="b133-43e1-2d7e-88a3" name="Tactician (n)" hidden="false" targetId="50a8-4cee-d537-cda5" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="d0a5-054d-dfb9-a097" name="Spartan MKVII" hidden="false" targetId="e3c9-640d-78c3-fa54" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="06eb-d354-ce5f-bad2" name="Spartan MKVII" hidden="false" targetId="ff95-3592-d6b5-fab2" primary="false"/>
+        <categoryLink id="0ca5-f832-a6e8-e9c6" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ba12-f0b4-7da7-ab81" name="MA40 Assault Rifle (Default)" hidden="false" collective="false" import="true" targetId="ea45-9886-744c-6273" type="selectionEntry"/>
+        <entryLink id="cdb8-37ad-0f29-e272" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="41dc-3bef-9944-91c1" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="7d06-abb5-dc47-fd90" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="e898-15c7-26b3-638c" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e6c-3901-1a9f-47b2" name="Spartan MKVII (Pulse Carbine)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="51dd-7a27-f50a-ba0e" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="e625-e805-361b-6f6c" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="c891-0dd3-4ab2-519f" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="baa2-e86e-c3a6-5b96" name="Tactician (n)" hidden="false" targetId="50a8-4cee-d537-cda5" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="2884-2904-5f8d-cdb4" name="Spartan MKVII" hidden="false" targetId="e3c9-640d-78c3-fa54" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="838f-3df4-8a7c-e491" name="Spartan MKVII" hidden="false" targetId="ff95-3592-d6b5-fab2" primary="false"/>
+        <categoryLink id="a666-b61f-8f15-53dc" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f151-ef38-e39a-3e3e" name="Pulse Carbine (Default)" hidden="false" collective="false" import="true" targetId="2a1d-9631-b380-65f0" type="selectionEntry"/>
+        <entryLink id="3af2-c348-8baa-736d" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="55bc-3694-6a37-9574" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="5016-30ef-06f1-913b" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="ff03-e584-7c31-0f0c" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3843-b3e1-7832-be0f" name="Spartan CQB (Energy Sword)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e744-a3a7-c81b-313e" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="33d0-2205-ca47-ecd3" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="80eb-7db2-8d86-7702" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="aa67-fa60-6919-ce9f" name="Imposing" hidden="false" targetId="c68e-b723-1234-2600" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="1744-ee79-63b4-535d" name="Spartan CQB" hidden="false" targetId="8af0-8cee-722f-ae4f" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="efad-465e-4762-8b54" name="Spartan CQB" hidden="false" targetId="da56-8c21-0413-f45a" primary="false"/>
+        <categoryLink id="1659-5699-25c4-1c6a" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e426-3a69-5e9d-31ef" name="Energy Sword (Default)" hidden="false" collective="false" import="true" targetId="51ad-1ee0-4d19-527d" type="selectionEntry"/>
+        <entryLink id="6a1b-ede0-b499-6edf" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="1f19-d825-efee-0560" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="8133-8ada-95e4-289c" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="05ab-1ab8-3b2d-5f05" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="51.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b4b1-4b49-eb2a-ae2f" name="Spartan CQB (Gravity Hammer)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7fdf-0e43-7a18-a2c3" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="5911-80eb-d5a2-bee0" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="300b-ef39-bff8-d596" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="c122-371a-c8a8-123e" name="Imposing" hidden="false" targetId="c68e-b723-1234-2600" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="74dc-c254-547e-609d" name="Spartan CQB" hidden="false" targetId="8af0-8cee-722f-ae4f" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0a39-ca3c-b14d-ecc7" name="Spartan CQB" hidden="false" targetId="da56-8c21-0413-f45a" primary="false"/>
+        <categoryLink id="cb4e-4679-f317-6d07" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2e03-9585-ecc8-9e15" name="Gravity Hammer (Default)" hidden="false" collective="false" import="true" targetId="9001-6884-c88e-1b70" type="selectionEntry"/>
+        <entryLink id="f0a5-8a34-8c3d-b533" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="577f-b3b1-e391-132a" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="d321-ce2d-a2fe-e802" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="f917-c8e4-e6bb-2fd4" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="954c-6355-5a66-c1ba" name="Spartan Deadeye (M392 DMR)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="39ce-e2e5-fd78-7dfc" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="cc0c-e86b-ab09-70d9" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="c599-3e0f-d09a-09b0" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="390a-1ed8-88dd-3472" name="Fast Transition" hidden="false" targetId="9b1f-0dad-e1eb-8209" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="21e2-f49f-64ac-dcee" name="Spartan Deadeye" hidden="false" targetId="7f0c-e1d6-29fa-98b2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="10dd-47af-f9af-d4ea" name="Spartan Deadeye" hidden="false" targetId="e644-04ea-9594-f331" primary="false"/>
+        <categoryLink id="fe6f-0fbd-69dd-0315" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="970b-70b1-9c47-a9cd" name="M392 DMR (Default)" hidden="false" collective="false" import="true" targetId="79b8-9fb7-eda9-e093" type="selectionEntry"/>
+        <entryLink id="7de0-d84c-a5f5-6a4b" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="4142-8c69-73aa-f421" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="467e-281b-cf0a-f1c6" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="ef93-66cd-18fc-c7e8" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="46.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="53b6-91ce-9e45-345b" name="Spartan Deadeye (Stalker Rifle)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="79f1-727b-6cb9-3ad4" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="de44-b8a3-a749-0b0b" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="db74-8a5d-8272-3bcd" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="3ac9-d6bf-98f0-02da" name="Fast Transition" hidden="false" targetId="9b1f-0dad-e1eb-8209" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="c04b-aea9-6747-b632" name="Spartan Deadeye" hidden="false" targetId="7f0c-e1d6-29fa-98b2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2ceb-6cd7-e840-2ad8" name="Spartan Deadeye" hidden="false" targetId="e644-04ea-9594-f331" primary="false"/>
+        <categoryLink id="e9bb-926b-5919-2dc2" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f133-3c30-3a1e-5473" name="Stalker Rifle (Default)" hidden="false" collective="false" import="true" targetId="6abe-f644-6dd4-61f5" type="selectionEntry"/>
+        <entryLink id="41e9-7062-d603-bb58" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="ac49-f4a3-2b8e-dce5" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="74d6-4644-a7f0-bd11" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="4a98-afbb-bc49-95d5" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb17-5a33-ef6e-181f" name="Spartan Gungnir (M319 Grenade Launcher)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="956c-cd67-db96-3407" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="967d-b664-06f0-1dfd" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="14de-93da-d0d1-404f" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="9569-5449-d6a1-3500" name="Guarded" hidden="false" targetId="c78a-c6a5-6d46-452a" type="rule"/>
+            <infoLink id="37ac-c70e-d9e7-a1ff" name="Stable" hidden="false" targetId="530f-2948-6564-be0c" type="rule"/>
+            <infoLink id="45a1-6e51-bf92-a855" name="Tactician (n)" hidden="false" targetId="50a8-4cee-d537-cda5" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="b09b-edf1-01da-cac0" name="Spartan Gungir" hidden="false" targetId="8dc5-0d64-aafa-62c0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4a03-89e1-1542-5577" name="Spartan Gungnir" hidden="false" targetId="2769-8f75-0a0c-1e3e" primary="false"/>
+        <categoryLink id="0da6-1ad3-1f4c-70f7" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9d05-fcab-07c6-e427" name="M319 Grenade Launcher (Default)" hidden="false" collective="false" import="true" targetId="f535-cd58-8c5e-665d" type="selectionEntry"/>
+        <entryLink id="4ac5-d2b4-f100-3e66" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="769e-8724-5f6e-b0f4" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="448f-4f62-403b-bdb0" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="0504-f92c-eb52-3c05" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="42.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac1c-31d4-d5dd-9ea0" name="Spartan Gungnir (Plasma Launcher)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5ca7-a2a5-5b35-4966" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="b71e-8501-232a-c9f3" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="f9eb-d5e9-1f45-449a" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="7ef0-d362-2347-0494" name="Guarded" hidden="false" targetId="c78a-c6a5-6d46-452a" type="rule"/>
+            <infoLink id="ebd7-1ce5-6223-7e29" name="Stable" hidden="false" targetId="530f-2948-6564-be0c" type="rule"/>
+            <infoLink id="5bd2-0bf1-ef1c-887d" name="Tactician (n)" hidden="false" targetId="50a8-4cee-d537-cda5" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="825c-dc2d-bc7a-e817" name="Spartan Gungir" hidden="false" targetId="8dc5-0d64-aafa-62c0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b4f0-329e-4946-a026" name="Spartan Gungnir" hidden="false" targetId="2769-8f75-0a0c-1e3e" primary="false"/>
+        <categoryLink id="cdc7-5894-bcdd-5b44" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e863-cb61-f53f-3aad" name="Plasma Launcher (Default)" hidden="false" collective="false" import="true" targetId="b01d-708d-348a-2dc5" type="selectionEntry"/>
+        <entryLink id="0240-dd40-0494-50b8" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="6ef0-1c92-9de8-e838" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="0793-2b42-42f6-a6fc" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="c590-dd3f-591e-9e35" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="43.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="66c3-29b8-2b0d-84f4" name="Spartan HAZOP (M45 Shotgun)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9554-e5c4-f76b-83c0" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="40f3-f6c2-1621-cf9e" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="ce29-a2f3-ce48-1768" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="146f-a0a9-11b6-3d30" name="Flight" hidden="false" targetId="3ed9-6332-2589-957e" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="f58a-2872-b71e-e209" name="Spartan HAZOP" hidden="false" targetId="abe3-f644-1272-c105" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c392-6a9d-c68b-3a25" name="Spartan HAZOP" hidden="false" targetId="11d5-3a2f-7e72-493a" primary="false"/>
+        <categoryLink id="bbed-a5f9-f9c2-aebe" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ee30-6c23-4038-b2f4" name="M45 Shotgun (Default)" hidden="false" collective="false" import="true" targetId="ae35-9586-8d12-a358" type="selectionEntry"/>
+        <entryLink id="22a2-f817-9e22-c416" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="43f5-db88-7bb8-2d0f" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="fffc-a44e-9c0b-fe01" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="4276-9b01-4102-5b16" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ff6-a6c7-6733-56fb" name="Spartan HAZOP (Spike Rifle)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d4fb-a43d-a905-4cdb" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="cd59-a32f-b1a0-7bbe" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="a1d3-0e1e-160a-3a71" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="751b-94aa-ca63-9bc7" name="Flight" hidden="false" targetId="3ed9-6332-2589-957e" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="fccf-e5c6-4043-5a95" name="Spartan HAZOP" hidden="false" targetId="abe3-f644-1272-c105" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f212-7e21-35ce-49a1" name="Spartan HAZOP" hidden="false" targetId="11d5-3a2f-7e72-493a" primary="false"/>
+        <categoryLink id="bd4a-a0f0-cc18-e1d2" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7b0f-fdb3-af57-9a01" name="Spike Rifle (Default)" hidden="false" collective="false" import="true" targetId="f017-48a9-dc3d-a5b4" type="selectionEntry"/>
+        <entryLink id="c80b-026e-86a3-7793" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="54b7-77a7-776d-40ab" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="6b30-b53c-71e7-ad63" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="3dcf-ad39-8389-e302" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="36.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3d45-84e3-805e-f4a9" name="Spartan JFO (H-165 Target Locator)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a404-cf7e-e9d6-c44c" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="2e25-436e-a96e-6260" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="0ea9-ba8e-e67f-be96" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="0693-9604-3480-4abc" name="Scout" hidden="false" targetId="2f3c-2944-fa44-f2ec" type="rule"/>
+            <infoLink id="801c-5031-ea7f-27d7" name="Tactician (n)" hidden="false" targetId="50a8-4cee-d537-cda5" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="3c5d-a9c9-10e7-8aea" name="Spartan JFO" hidden="false" targetId="62e8-e0ec-4ce7-497b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ea53-4e68-92c4-f661" name="Spartan JFO" hidden="false" targetId="7b84-1754-5d8e-d128" primary="false"/>
+        <categoryLink id="b5a2-6953-6a0d-921f" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d428-fd42-a257-64bd" name="H-165 Target Locator (Default)" hidden="false" collective="false" import="true" targetId="9adb-fc9d-1a6b-00df" type="selectionEntry"/>
+        <entryLink id="277a-526e-e23d-c917" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="3d41-db9c-7c4b-2d20" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="61eb-5202-9a39-cebf" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="7d8c-b2ee-06a2-386f" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="394e-c863-96c6-b6eb" name="Spartan JFO (Concussion Rifle)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a2d2-cc31-1744-d3cf" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="7e4e-e9be-754b-72bc" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="6fa9-2194-a06f-4375" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="8e11-8ec0-ba1a-c53d" name="Scout" hidden="false" targetId="2f3c-2944-fa44-f2ec" type="rule"/>
+            <infoLink id="57a8-e874-fc9f-0dab" name="Tactician (n)" hidden="false" targetId="50a8-4cee-d537-cda5" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="3a26-f7d5-c083-9cd6" name="Spartan JFO" hidden="false" targetId="62e8-e0ec-4ce7-497b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bbac-78b2-21c3-edfc" name="Spartan JFO" hidden="false" targetId="7b84-1754-5d8e-d128" primary="false"/>
+        <categoryLink id="05a1-7abd-79f9-2f0f" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="55db-43e8-fbb6-3d7c" name="Concussion Rifle (Default)" hidden="false" collective="false" import="true" targetId="6f37-f4dc-549c-8a72" type="selectionEntry"/>
+        <entryLink id="9cb5-bf2e-6ae4-86fa" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="929b-3b2f-9b2d-75ac" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="172a-7572-9bdb-e6b9" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="388e-e2ea-252b-871b" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="70d2-a332-146c-f7d6" name="Spartan Zvezda (Cindershot)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="feb1-2160-b520-274d" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="81bf-e055-d53b-2c10" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="ce3d-f771-4280-2b25" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="996b-c6dc-865f-9052" name="Scout" hidden="false" targetId="2f3c-2944-fa44-f2ec" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="556a-bebd-72cf-7684" name="Spartan Zvezda" hidden="false" targetId="185b-d42c-1057-ec06" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4212-e552-dbd1-c13c" name="Spartan Zvezda" hidden="false" targetId="7f60-7559-6e77-3cce" primary="false"/>
+        <categoryLink id="4443-bc27-793d-de22" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bae8-2a3e-c4f3-4fd9" name="Cindershot (Default)" hidden="false" collective="false" import="true" targetId="aec3-636b-92a1-bec3" type="selectionEntry"/>
+        <entryLink id="cbf9-9e70-8687-4ea3" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="dcce-8a97-1f6a-e7f9" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="ccae-158a-105c-3cf2" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="f9fe-bbe6-3571-2dc5" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2c97-4aac-8628-405d" name="Spartan Zvezda (VK78 Commando)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d079-10f4-d5cf-0684" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="4155-323a-32a6-cf20" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="221a-cb02-6d85-d856" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="f65d-0bb1-7689-5205" name="Scout" hidden="false" targetId="2f3c-2944-fa44-f2ec" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="1070-487d-f426-3348" name="Spartan Zvezda" hidden="false" targetId="185b-d42c-1057-ec06" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="070f-83e3-e5c0-d067" name="Spartan Zvezda" hidden="false" targetId="7f60-7559-6e77-3cce" primary="false"/>
+        <categoryLink id="8242-9076-8f34-0eda" name="New CategoryLink" hidden="false" targetId="e60d-9070-0306-4036" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2310-0d29-262d-88b6" name="VK78 Commando (Default)" hidden="false" collective="false" import="true" targetId="1342-b0fb-3209-811d" type="selectionEntry"/>
+        <entryLink id="01b8-e3ad-c1e1-eb5c" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="942a-aa1a-48b7-1205" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="a3d1-916d-3b28-59e6" name="Close Combat" hidden="false" collective="false" import="true" targetId="b20e-faf7-0a87-53a5" type="selectionEntryGroup"/>
+        <entryLink id="0f3a-f62b-c012-9bec" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="41.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca62-0b16-7581-cb73" name="Master Chief" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0676-70a7-029f-2a75" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="65fd-3d7d-54bf-aae7" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="4204-49f5-8b55-91dd" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="9f95-8765-e3be-e25d" name="Stoic" hidden="false" targetId="ec12-5340-68a0-a917" type="rule"/>
+            <infoLink id="8407-ef06-d6ab-3062" name="Tactician (n)" hidden="false" targetId="50a8-4cee-d537-cda5" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="d8ef-35a7-76fc-d690" name="Master Chief" hidden="false" targetId="5f38-efa7-4306-92bd" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7288-622e-c7cf-34f4" name="New CategoryLink" hidden="false" targetId="8471-8464-e2c0-01cf" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ff51-c72f-27a9-7cf2" name="Combat Knife" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="cf85-3ad9-445f-dd9b" name="M11 Combat Knife" hidden="false" collective="false" import="true" targetId="bbfe-7c10-e779-1f63" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66b3-4cfe-12dd-3310" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5455-c43f-1f23-ef76" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a884-868d-c6db-a225" name="Energy Sword (Default)" hidden="false" collective="false" import="true" targetId="51ad-1ee0-4d19-527d" type="selectionEntry"/>
+        <entryLink id="0727-14ae-3336-644b" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="9286-989a-cc60-3c14" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="56bb-36dc-b7f6-fe27" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="88.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b3de-61f0-37df-233c" name="Return to Sender (Any Spartan)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7ee-e2fe-ffd7-2afb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3359-48c3-bd68-d54f" name="Return to Sender (Any Spartan)" hidden="false" typeId="3cac-1a91-058a-be87" typeName="Special Order">
+          <characteristics>
+            <characteristic name="Details" typeId="7eed-38e0-66bc-9281">When a grenade lands in teh same cube as a friendly Spartan, you may spend a Special Order result to allow that Spartan to attempt to catch it and throw it. It doesn&apos;t matter if the grenade was thrown accurately or scattered into the cube. May only be used with weapons/items called a _____ Grenade (e.g. Plasma Grenade), not any kind of grenade launcher or other weapon which shoots grenades. You must declare the use of the Special Order before your opponent resolves the effect of the grenade (rolling Frag etc.).
+
+First, roll a 3 dice Survive test (2) to catch the grenade. If you roll 1 or 0 succeses, the catch failed and the grenade is resolved in the cube as normal. If you roll the 2 or more success required, the Spartan may then throw the grenade as if making a shoot action. You resolve the grenade effects wherever it lands (it is your grenade now). </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f4fb-1066-8257-ca60" name="Special Orders" hidden="false" targetId="32d3-c535-cc1b-fac4" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b034-5ff5-cf2b-79d2" name="Snap Shot (Any Spartan)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3804-7b43-998b-f318" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="78c6-9b75-3858-8ee2" name="Snap Shot (Any Spartan)" hidden="false" typeId="3cac-1a91-058a-be87" typeName="Special Order">
+          <characteristics>
+            <characteristic name="Details" typeId="7eed-38e0-66bc-9281">When: When one of your opponent&apos;s models moves into a cube which contains one of your models using an Advance or Sprint action which woudl trigger a free Assault action. Your opponent must specify which of your models is being attacked, if there is more than one in the cube, before this Special Order use is declared. Before the free ASsault action is performed, declare the use of this Special Order and discard the Command Die showing that result. May not be used if there is already another enemy model in the cube with your model or if your model is Pinned.
+
+What: The model being assaulted may make a free Shoot action against the attacker (short action only). Use one of the model&apos;s equipped ranged weapons, including all the keywords for that weapon, but do not apply the following Shoot action modifiers: Clear shot, High Ground, Friendly Fire. Apply damage to the enmy model as normal. If the Shoot attack cuases the enemy model to be moved out of the cube (e.g. Knockback) or Pinned, the opponent&apos;s free Assault action does not take place. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="afa3-8c67-960f-e209" name="New CategoryLink" hidden="false" targetId="32d3-c535-cc1b-fac4" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ab6b-c905-b637-8f3a" name="One Man Army (Master Chief only)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e7d-c32e-7706-b9a1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6f05-512b-bbf7-0791" name="One Man Army (Master Chief only)" hidden="false" typeId="3cac-1a91-058a-be87" typeName="Special Order">
+          <characteristics>
+            <characteristic name="Details" typeId="7eed-38e0-66bc-9281">To represent the extraordinary abilities of the Master Chief, at the start of the Master Chief&apos;s activation you may use a special order result to allow the use of any number of Advance, Fight, or Shoot command dice results during that activation.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f039-5d0c-55e7-d31b" name="New CategoryLink" hidden="false" targetId="32d3-c535-cc1b-fac4" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="6.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="b20e-faf7-0a87-53a5" name="Close Combat" hidden="false" collective="false" import="true" defaultSelectionEntryId="389b-fef8-2869-61fe">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b1a-d78f-6f89-a334" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="021b-7a0a-9a0f-180c" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="389b-fef8-2869-61fe" name="Spartan Fists" hidden="false" collective="false" import="true" targetId="fe62-95db-9c64-0dd3" type="selectionEntry"/>
+        <entryLink id="ec2d-5f79-d892-3c5c" name="M11 Combat Knife" hidden="false" collective="false" import="true" targetId="bbfe-7c10-e779-1f63" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="9c6a-0bce-1add-5be5" name="Spartan Brawler " hidden="false" typeId="908f-e54b-8c7a-2ca1" typeName="Model Profile">
+      <characteristics>
+        <characteristic name="SP" typeId="1613-979c-19c1-5711">2-3</characteristic>
+        <characteristic name="RA" typeId="93cb-9d76-7b0a-d793">5+</characteristic>
+        <characteristic name="FI" typeId="b44b-1a2b-12eb-c65b">3+</characteristic>
+        <characteristic name="SV" typeId="f7d8-51bd-942d-293b">5+</characteristic>
+        <characteristic name="AR" typeId="5414-fbe8-7d35-a00d">2</characteristic>
+        <characteristic name="HP" typeId="df26-0602-4a66-3394">4</characteristic>
+        <characteristic name="Keywords" typeId="e609-9769-225d-d205">Energy Shield (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e3c9-640d-78c3-fa54" name="Spartan MKVII" hidden="false" typeId="908f-e54b-8c7a-2ca1" typeName="Model Profile">
+      <characteristics>
+        <characteristic name="SP" typeId="1613-979c-19c1-5711">2-3</characteristic>
+        <characteristic name="RA" typeId="93cb-9d76-7b0a-d793">4+</characteristic>
+        <characteristic name="FI" typeId="b44b-1a2b-12eb-c65b">4+</characteristic>
+        <characteristic name="SV" typeId="f7d8-51bd-942d-293b">5+</characteristic>
+        <characteristic name="AR" typeId="5414-fbe8-7d35-a00d">2</characteristic>
+        <characteristic name="HP" typeId="df26-0602-4a66-3394">4</characteristic>
+        <characteristic name="Keywords" typeId="e609-9769-225d-d205">Energy Shield (2), Tactician (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8af0-8cee-722f-ae4f" name="Spartan CQB" hidden="false" typeId="908f-e54b-8c7a-2ca1" typeName="Model Profile">
+      <characteristics>
+        <characteristic name="SP" typeId="1613-979c-19c1-5711">1-3</characteristic>
+        <characteristic name="RA" typeId="93cb-9d76-7b0a-d793">5+</characteristic>
+        <characteristic name="FI" typeId="b44b-1a2b-12eb-c65b">4+</characteristic>
+        <characteristic name="SV" typeId="f7d8-51bd-942d-293b">6+</characteristic>
+        <characteristic name="AR" typeId="5414-fbe8-7d35-a00d">3</characteristic>
+        <characteristic name="HP" typeId="df26-0602-4a66-3394">5</characteristic>
+        <characteristic name="Keywords" typeId="e609-9769-225d-d205">Energy Shield (2), Imposing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7f0c-e1d6-29fa-98b2" name="Spartan Deadeye" hidden="false" typeId="908f-e54b-8c7a-2ca1" typeName="Model Profile">
+      <characteristics>
+        <characteristic name="SP" typeId="1613-979c-19c1-5711">2-3</characteristic>
+        <characteristic name="RA" typeId="93cb-9d76-7b0a-d793">3+</characteristic>
+        <characteristic name="FI" typeId="b44b-1a2b-12eb-c65b">5+</characteristic>
+        <characteristic name="SV" typeId="f7d8-51bd-942d-293b">5+</characteristic>
+        <characteristic name="AR" typeId="5414-fbe8-7d35-a00d">2</characteristic>
+        <characteristic name="HP" typeId="df26-0602-4a66-3394">4</characteristic>
+        <characteristic name="Keywords" typeId="e609-9769-225d-d205">Energy Shield (2), Fast Transition</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8dc5-0d64-aafa-62c0" name="Spartan Gungir" hidden="false" typeId="908f-e54b-8c7a-2ca1" typeName="Model Profile">
+      <characteristics>
+        <characteristic name="SP" typeId="1613-979c-19c1-5711">2-3</characteristic>
+        <characteristic name="RA" typeId="93cb-9d76-7b0a-d793">4+</characteristic>
+        <characteristic name="FI" typeId="b44b-1a2b-12eb-c65b">5+</characteristic>
+        <characteristic name="SV" typeId="f7d8-51bd-942d-293b">5+</characteristic>
+        <characteristic name="AR" typeId="5414-fbe8-7d35-a00d">2</characteristic>
+        <characteristic name="HP" typeId="df26-0602-4a66-3394">4</characteristic>
+        <characteristic name="Keywords" typeId="e609-9769-225d-d205">Energy Shield (2), Guarded, Stable, Tactician (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="abe3-f644-1272-c105" name="Spartan HAZOP" hidden="false" typeId="908f-e54b-8c7a-2ca1" typeName="Model Profile">
+      <characteristics>
+        <characteristic name="SP" typeId="1613-979c-19c1-5711">2-3</characteristic>
+        <characteristic name="RA" typeId="93cb-9d76-7b0a-d793">5+</characteristic>
+        <characteristic name="FI" typeId="b44b-1a2b-12eb-c65b">5+</characteristic>
+        <characteristic name="SV" typeId="f7d8-51bd-942d-293b">5+</characteristic>
+        <characteristic name="AR" typeId="5414-fbe8-7d35-a00d">2</characteristic>
+        <characteristic name="HP" typeId="df26-0602-4a66-3394">4</characteristic>
+        <characteristic name="Keywords" typeId="e609-9769-225d-d205">Energy Shield (2), Flight</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="62e8-e0ec-4ce7-497b" name="Spartan JFO" hidden="false" typeId="908f-e54b-8c7a-2ca1" typeName="Model Profile">
+      <characteristics>
+        <characteristic name="SP" typeId="1613-979c-19c1-5711">2-3</characteristic>
+        <characteristic name="RA" typeId="93cb-9d76-7b0a-d793">5+</characteristic>
+        <characteristic name="FI" typeId="b44b-1a2b-12eb-c65b">5+</characteristic>
+        <characteristic name="SV" typeId="f7d8-51bd-942d-293b">5+</characteristic>
+        <characteristic name="AR" typeId="5414-fbe8-7d35-a00d">3</characteristic>
+        <characteristic name="HP" typeId="df26-0602-4a66-3394">4</characteristic>
+        <characteristic name="Keywords" typeId="e609-9769-225d-d205">Energy Shield (2), Scout, Tactician (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="185b-d42c-1057-ec06" name="Spartan Zvezda" hidden="false" typeId="908f-e54b-8c7a-2ca1" typeName="Model Profile">
+      <characteristics>
+        <characteristic name="SP" typeId="1613-979c-19c1-5711">1-3</characteristic>
+        <characteristic name="RA" typeId="93cb-9d76-7b0a-d793">4+</characteristic>
+        <characteristic name="FI" typeId="b44b-1a2b-12eb-c65b">5+</characteristic>
+        <characteristic name="SV" typeId="f7d8-51bd-942d-293b">5+</characteristic>
+        <characteristic name="AR" typeId="5414-fbe8-7d35-a00d">2</characteristic>
+        <characteristic name="HP" typeId="df26-0602-4a66-3394">4</characteristic>
+        <characteristic name="Keywords" typeId="e609-9769-225d-d205">Energy Shield (2), Scout</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5f38-efa7-4306-92bd" name="Master Chief" hidden="false" typeId="908f-e54b-8c7a-2ca1" typeName="Model Profile">
+      <characteristics>
+        <characteristic name="SP" typeId="1613-979c-19c1-5711">2-3</characteristic>
+        <characteristic name="RA" typeId="93cb-9d76-7b0a-d793">3+</characteristic>
+        <characteristic name="FI" typeId="b44b-1a2b-12eb-c65b">3+</characteristic>
+        <characteristic name="SV" typeId="f7d8-51bd-942d-293b">3+</characteristic>
+        <characteristic name="AR" typeId="5414-fbe8-7d35-a00d">2</characteristic>
+        <characteristic name="HP" typeId="df26-0602-4a66-3394">5</characteristic>
+        <characteristic name="Keywords" typeId="e609-9769-225d-d205">Energy Shield (3), Stoic, Tactician (3)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

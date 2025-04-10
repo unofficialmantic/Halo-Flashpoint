@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="fc25-5705-4c48-c9ef" name="Banished" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b8b3-48e2-39f0-8ef2" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="36ff-1a86-c4d4-5ab2" name="Sangheili" hidden="false"/>
+    <categoryEntry id="a9a4-2965-ad83-6eac" name="Banished Special Orders" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ae5-fdfb-ae4f-4c99" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a4-4a62-fc77-3183" type="min"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="1bd0-051b-60a4-baab" name="Legends" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="5fbc-cf7c-5fbb-cf5d" name="Banished Fireteam" hidden="false">
+      <categoryLinks>
+        <categoryLink id="882d-9512-58ec-e932" name="Banished Special Orders" hidden="false" targetId="a9a4-2965-ad83-6eac" primary="false"/>
+        <categoryLink id="7d4f-325a-87a8-e2ec" name="Legends" hidden="false" targetId="1bd0-051b-60a4-baab" primary="false"/>
+        <categoryLink id="22bd-8d1f-1352-c6ee" name="Sangheili" hidden="false" targetId="36ff-1a86-c4d4-5ab2" primary="false"/>
+        <categoryLink id="d2dd-0e08-25ad-f10b" name="Command Upgrades" hidden="false" targetId="b778-9380-b6fa-b399" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="cd3e-d275-b999-75ba" name="Sangheili Mercenary (Pulse Carbine)" hidden="false" collective="false" import="true" targetId="9dff-6fee-ec71-538a" type="selectionEntry"/>
+    <entryLink id="bd71-abe2-4126-db3c" name="Sangheili Mercenary (Needler)" hidden="false" collective="false" import="true" targetId="a853-174c-fe66-17e5" type="selectionEntry"/>
+    <entryLink id="74bf-8ba7-33ca-d193" name="Sangheili Mercenary (Plasma Rifle)" hidden="false" collective="false" import="true" targetId="943a-5276-1404-4b7c" type="selectionEntry"/>
+    <entryLink id="f628-f102-337d-2180" name="Sangheili Mercenary (Energy Sword)" hidden="false" collective="false" import="true" targetId="9bf2-7b8f-0f3a-f76e" type="selectionEntry"/>
+    <entryLink id="4879-d2ad-5095-0958" name="Alliance (Any Banished)" hidden="false" collective="false" import="true" targetId="e939-50ca-a109-4b88" type="selectionEntry"/>
+    <entryLink id="db9e-7e09-8777-3453" name="Reinforcements Incoming (Sangheili Mercenaries only)" hidden="false" collective="false" import="true" targetId="a5a2-ad8d-9a8a-bb79" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="9dff-6fee-ec71-538a" name="Sangheili Mercenary (Pulse Carbine)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b29c-c90b-124e-c19c" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="bf05-bb71-5a3e-cb95" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="90ba-67f9-ca65-bc5b" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="e79f-8f28-d22f-e6ce" name="Evade" hidden="false" targetId="8289-2272-2033-b736" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="3206-ab86-f4cd-d0f8" name="Sangheili Mercenary" hidden="false" targetId="9cc5-a851-02fa-c01e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c9b8-c18e-47dd-28f5" name="New CategoryLink" hidden="false" targetId="36ff-1a86-c4d4-5ab2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="776f-b6bb-d890-cd76" name="Pulse Carbine (Default)" hidden="false" collective="false" import="true" targetId="2a1d-9631-b380-65f0" type="selectionEntry"/>
+        <entryLink id="522d-f936-2d9d-bde5" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="a13f-cd3d-a03c-a41f" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="9276-a4e2-6eec-bd04" name="Sangheili Close Combat" hidden="false" collective="false" import="true" targetId="dc3a-45bb-058b-898b" type="selectionEntryGroup"/>
+        <entryLink id="ce2b-ffd5-7f7f-73d5" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+        <entryLink id="c441-b84f-4892-abc8" name="Plasma Grenade" hidden="false" collective="false" import="true" targetId="c90a-f0de-1085-0c0d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="2c88-cb81-3fe9-c8d5" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5529-f121-68af-df33" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63bc-ac34-3c22-6846" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b01-f0e4-aad3-887f" name="Sangheili Fists" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4469-cac5-a24e-e893" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="bc9f-ae25-578d-d78c" name="Sangheili Fists" hidden="false" typeId="ac2c-807f-0eda-b898" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9121-f946-9d04-312c">CC</characteristic>
+            <characteristic name="AP" typeId="13ba-5438-7c73-e0df">-</characteristic>
+            <characteristic name="Keywords" typeId="33b8-c264-b71e-6619">Smash (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1190-d912-2538-9c10" name="Energy Dagger" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4495-5b54-1396-83b6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f448-f6ea-1907-e73f" name="Energy Dagger" hidden="false" typeId="ac2c-807f-0eda-b898" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9121-f946-9d04-312c">CC</characteristic>
+            <characteristic name="AP" typeId="13ba-5438-7c73-e0df">2</characteristic>
+            <characteristic name="Keywords" typeId="33b8-c264-b71e-6619">Lethal (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a853-174c-fe66-17e5" name="Sangheili Mercenary (Needler)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="00d8-c3a5-efbe-bdb2" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="5145-ff75-bfe3-9fba" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="036b-94b5-a66e-a30c" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="8666-9d26-77de-f155" name="Evade" hidden="false" targetId="8289-2272-2033-b736" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="598c-0c8e-c2e0-6597" name="Sangheili Mercenary" hidden="false" targetId="9cc5-a851-02fa-c01e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5a41-535f-1c66-f54c" name="New CategoryLink" hidden="false" targetId="36ff-1a86-c4d4-5ab2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3ce9-5c7c-786a-a4f6" name="Needler (Default)" hidden="false" collective="false" import="true" targetId="8d47-f794-4b09-5a4e" type="selectionEntry"/>
+        <entryLink id="56a8-2c3a-a330-3501" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="7472-8403-69ab-7e50" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="3c76-5067-a9a3-ab16" name="Sangheili Close Combat" hidden="false" collective="false" import="true" targetId="dc3a-45bb-058b-898b" type="selectionEntryGroup"/>
+        <entryLink id="14e6-ee72-a9a0-e90f" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+        <entryLink id="5f6b-d3ab-af91-83c5" name="Plasma Grenade" hidden="false" collective="false" import="true" targetId="c90a-f0de-1085-0c0d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="2c88-cb81-3fe9-c8d5" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dee3-21c5-aa25-4107" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b60d-a6cc-ddb3-6c8b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="943a-5276-1404-4b7c" name="Sangheili Mercenary (Plasma Rifle)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8203-aab0-40a9-373e" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="80de-0903-66f0-b28c" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="93b3-1b23-662b-71be" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="ef16-57e0-8435-05a3" name="Evade" hidden="false" targetId="8289-2272-2033-b736" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="71f1-0cb9-ea4c-4d60" name="Sangheili Mercenary" hidden="false" targetId="9cc5-a851-02fa-c01e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="63a3-ae3f-adc7-c160" name="New CategoryLink" hidden="false" targetId="36ff-1a86-c4d4-5ab2" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3ced-0225-5ab3-3322" name="Plasma Rifle (Default)" hidden="false" collective="false" import="true" targetId="ef7b-53a1-ae04-0580" type="selectionEntry"/>
+        <entryLink id="ae1f-9077-d181-e38f" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="cfa0-3922-172e-f5c9" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="4647-b32c-06e4-585b" name="Sangheili Close Combat" hidden="false" collective="false" import="true" targetId="dc3a-45bb-058b-898b" type="selectionEntryGroup"/>
+        <entryLink id="fb6f-aee2-d75a-2756" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+        <entryLink id="f54e-db0a-3359-40b9" name="Plasma Grenade" hidden="false" collective="false" import="true" targetId="c90a-f0de-1085-0c0d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="2c88-cb81-3fe9-c8d5" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f56-e244-7627-969a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9048-c836-102b-993b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9bf2-7b8f-0f3a-f76e" name="Sangheili Mercenary (Energy Sword)" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad0c-6402-ae10-d66f" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="cbcb-638e-c4ba-ae9b" name="Keywords" hidden="false">
+          <infoLinks>
+            <infoLink id="1dfd-a6b9-3d8d-e875" name="Energy Shield (n)" hidden="false" targetId="19fe-79b5-6882-8fd8" type="rule"/>
+            <infoLink id="85c0-a9fe-e4d7-b824" name="Evade" hidden="false" targetId="8289-2272-2033-b736" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="e3d7-497f-221c-5c92" name="Sangheili Mercenary" hidden="false" targetId="9cc5-a851-02fa-c01e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8b06-7a15-7af9-194b" name="New CategoryLink" hidden="false" targetId="36ff-1a86-c4d4-5ab2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f065-12a0-175a-b6c7" name="Sangheili Close Combat" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b9e-bf25-582e-c87b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fe4a-b14b-25a8-b8e8" name="Energy Dagger" hidden="false" collective="false" import="true" targetId="1190-d912-2538-9c10" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="10dc-5752-1741-0adc" name="Energy Sword (Default)" hidden="false" collective="false" import="true" targetId="51ad-1ee0-4d19-527d" type="selectionEntry"/>
+        <entryLink id="9d20-eef3-b085-4939" name="Grenades" hidden="false" collective="false" import="true" targetId="4612-4935-5a00-1d0d" type="selectionEntryGroup"/>
+        <entryLink id="53bf-fbb1-0f16-c2b3" name="Weapons Upgrade" hidden="false" collective="false" import="true" targetId="523d-ba85-98ad-baee" type="selectionEntryGroup"/>
+        <entryLink id="a8cf-d5b5-dcc5-93fa" name="Items" hidden="false" collective="false" import="true" targetId="5360-6b29-fec2-25b5" type="selectionEntryGroup"/>
+        <entryLink id="21df-1298-5bf1-f2ba" name="Plasma Grenade" hidden="false" collective="false" import="true" targetId="c90a-f0de-1085-0c0d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="2c88-cb81-3fe9-c8d5" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1caa-f42e-1bd3-1e70" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bab-9b4c-0b7e-e310" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="49.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a5a2-ad8d-9a8a-bb79" name="Reinforcements Incoming (Sangheili Mercenaries only)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9f8-1db2-55f1-5cdb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ad7c-0430-a0e7-d32f" name="Reinforcements Incoming (Sangheili Mercenaries only)" hidden="false" typeId="3cac-1a91-058a-be87" typeName="Special Order">
+          <characteristics>
+            <characteristic name="Details" typeId="7eed-38e0-66bc-9281">After an activation by either player, the Special Order command die result may be spent to remove the activation token from a friendly Sangheili Mercenary that is off the board (due to being killed but not yet respawned). This means the controlling player can and must take a turn to activate the model before the end fo the current round. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d665-6099-266f-db57" name="New CategoryLink" hidden="false" targetId="a9a4-2965-ad83-6eac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e939-50ca-a109-4b88" name="Alliance (Any Banished)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7402-37d9-8806-8392" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="31d7-94cf-597a-3e73" name="Alliance (Any Banished)" hidden="false" typeId="3cac-1a91-058a-be87" typeName="Special Order">
+          <characteristics>
+            <characteristic name="Details" typeId="7eed-38e0-66bc-9281">If there is a friendly Banished model in the same cube or an adjacent cube to the active model at the start of its activation, then the active model is permitted to take the same short action twice during its activation. 
+
+Note this isn&apos;t allowing extra actions, it&apos;s just removing the usual obligation to use different action when taking tow short actions in the activation. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="88ff-b0ad-05b6-2363" name="New CategoryLink" hidden="false" targetId="a9a4-2965-ad83-6eac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="2c88-cb81-3fe9-c8d5" value="3.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="dc3a-45bb-058b-898b" name="Sangheili Close Combat" hidden="false" collective="false" import="true" defaultSelectionEntryId="55ab-e879-cb78-d7a2">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a859-4de3-1ab0-0278" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39e6-aab4-eac6-831d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="cf70-1154-6607-743d" name="Energy Dagger" hidden="false" collective="false" import="true" targetId="1190-d912-2538-9c10" type="selectionEntry"/>
+        <entryLink id="55ab-e879-cb78-d7a2" name="Sangheili Fists" hidden="false" collective="false" import="true" targetId="3b01-f0e4-aad3-887f" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="9cc5-a851-02fa-c01e" name="Sangheili Mercenary" hidden="false" typeId="908f-e54b-8c7a-2ca1" typeName="Model Profile">
+      <characteristics>
+        <characteristic name="SP" typeId="1613-979c-19c1-5711">2-3</characteristic>
+        <characteristic name="RA" typeId="93cb-9d76-7b0a-d793">4+</characteristic>
+        <characteristic name="FI" typeId="b44b-1a2b-12eb-c65b">4+</characteristic>
+        <characteristic name="SV" typeId="f7d8-51bd-942d-293b">4+</characteristic>
+        <characteristic name="AR" typeId="5414-fbe8-7d35-a00d">1</characteristic>
+        <characteristic name="HP" typeId="df26-0602-4a66-3394">3</characteristic>
+        <characteristic name="Keywords" typeId="e609-9769-225d-d205">Energy Shield (3), Evade</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
